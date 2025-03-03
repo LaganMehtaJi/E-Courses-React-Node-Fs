@@ -1,7 +1,7 @@
-# 📚 Global-Skills - E-Commerce Courses Website
+# 📚 E-Commerce Courses Website
 
 ## 🚀 About the Project
-Global-Skills is an interactive e-commerce website that allows users to browse, purchase, and enroll in online courses. This project is designed to provide a seamless learning experience while managing courses efficiently.
+An interactive e-commerce website that allows users to browse, purchase, and enroll in online courses. This project is designed to provide a seamless learning experience while managing courses efficiently.
 
 ## 🛠️ Built With
 - React.js (Frontend)
@@ -18,15 +18,14 @@ Global-Skills is an interactive e-commerce website that allows users to browse, 
 ## 🛠️ Installation & Setup
 Follow these steps to run the project locally:
 ```sh
-git clone https://github.com/yourusername/global-skills.git
-cd global-skills
+cd E-Courses
 npm install
 npm start
 ```
 
 ## 📂 Project Structure
 ```
-/global-skills
+/E-Courses
 ├── /client (React Frontend)
 ├── /server (Node.js Backend)
 ├── /data (File System Storage)
@@ -39,4 +38,4 @@ npm start
 Feel free to contribute to this project! Fork the repository, create a new branch, and submit a pull request.
 
 ## 📞 Contact
-For any inquiries or collaboration, reach out via email at **your-email@example.com**.
+For any inquiries or collaboration, reach out via email at **LaganMehta.in@gmail.com**.
