@@ -1,0 +1,14 @@
+{
+  "name": "e-courses-react-node-fs",
+  "version": "1.0.0",
+  "description": "Backhand to send Data and Add  User Detials",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Lagan Mehta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
