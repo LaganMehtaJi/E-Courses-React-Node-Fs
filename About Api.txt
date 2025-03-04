@@ -1,0 +1,68 @@
+User Authentication API                                                        //Done
+
+Handles sign-up, login, logout, and authentication.    
+    
+Method	Endpoint	        Description
+POST	/api/auth/register	Register new users
+POST	/api/auth/login	        Authenticate users and return JWT
+GET	/api/auth/profile	Get user profile (protected route)
+POST	/api/auth/logout	Log out users
+
+Course Management API                                                          //Done
+
+Handles course creation, updating, deleting, and listing.
+
+Method	Endpoint	        Description
+POST	/api/courses/create	Create a new course (Admin)
+GET	/api/courses/	        Get all courses
+GET	/api/courses/:id	Get course details
+PUT	/api/courses/:id	Update course (Admin)
+DELETE	/api/courses/:id	Delete course (Admin)
+
+Course Enrollment API
+
+Allows users to enroll and access courses.
+
+Method	Endpoint	  Description
+POST	/api/enroll	  Enroll in a course
+GET	/api/my-courses	  Get enrolled courses
+
+Payment API (Optional)
+
+
+Method	Endpoint	        Description
+POST	/api/payments/initiate	Start payment
+GET	/api/payments/status	Check payment status
+
+Course Content API
+Handles course lectures, videos, PDFs, etc..
+
+Method	Endpoint	Description
+POST	/api/content/upload	Upload course content
+GET	/api/content/:courseId	Get course materials
+
+Review & Rating API
+
+Allows students to review and rate courses.
+
+
+Method	Endpoint	Description
+POST	/api/reviews/:courseId	Add review
+GET	/api/reviews/:courseId	Get all reviews
+
+📂 Folder Structure
+
+course-website-backend
+│── models/
+│   ├── User.js
+│   ├── Course.js
+│   ├── Enrollment.js
+│── routes/
+│   ├── authRoutes.js
+│   ├── courseRoutes.js
+│   ├── enrollRoutes.js
+│── config/
+│   ├── db.js
+│── server.js
+│── .env
+
